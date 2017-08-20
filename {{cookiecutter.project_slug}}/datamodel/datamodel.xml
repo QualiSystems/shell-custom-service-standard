@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataModelInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.qualisystems.com/ResourceManagement/DataModelSchema.xsd">
+  <Attributes />
+  <ResourceFamilies>
+    <ResourceFamily Name="{{ cookiecutter.family_name }}" Description="" AllowRemoteConnection="true" IsService="true" ServiceType="Regular">
+     <AttachedAttributes />
+     <AttributeValues />
+     <Models />
+     <Categories>
+        <!--<Category>{{ cookiecutter.service_category }}</Category>-->
+     </Categories>
+    </ResourceFamily>
+  </ResourceFamilies>
+  <DriverDescriptors>
+      <DriverDescriptor Name="{{ cookiecutter.driver_name }}" DriverType="PythonDriver" />
+  </DriverDescriptors>
+</DataModelInfo>
