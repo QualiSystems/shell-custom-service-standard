@@ -14,5 +14,5 @@
 	"version": "0.1.0",
 	"server_version" : "8.2",
 	"use_pypi_deployment_with_travis": "y",
-    "service_category": "Generic Services"
+    "service_category": "Custom Services"
 }
