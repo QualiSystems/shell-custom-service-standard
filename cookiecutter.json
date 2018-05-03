@@ -14,5 +14,8 @@
 	"version": "0.1.0",
 	"server_version" : "8.2",
 	"use_pypi_deployment_with_travis": "y",
-    "service_category": "Custom Services"
+    "service_category": "Custom Services",
+    "template_name" : "gen1/custom-service",
+    "template_descr" : "1st generation shell template for custom service",
+    "template_repository" : "https://github.com/QualiSystems/shell-custom-service-standard"
 }
